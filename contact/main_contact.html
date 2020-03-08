@@ -45,24 +45,26 @@
 	<main>
 		
 		<div class="contact-form">
-			<h1> Contacter moi </h1>
+			<form method="POST" action="contact-form-handler.php">
+				<h1> Contacter moi </h1>
 			
-			<div class="txtb">
-				<label>Nom et Prénom: </label>
-				<input type="text" name="" value="" placeholder="Entrer votre Nom et Prénom">
-			</div>
-			
-			<div class="txtb">
-				<label>Email: </label>
-				<input type="email" name="" value="" placeholder="Entrer votre Email">
-			</div>
+				<div class="txtb">
+					<label>Nom et Prénom: </label>
+					<input type="text" name="" value="" placeholder="Entrer votre Nom et Prénom">
+				</div>
+				
+				<div class="txtb">
+					<label>Email: </label>
+					<input type="email" name="" value="" placeholder="Entrer votre Email">
+				</div>
 
-			<div class="txtb">
-				<label>Message: </label>
-				<textarea placeholder="Entrer votre Message"></textarea>
-			</div>
+				<div class="txtb">
+					<label>Message: </label>
+					<textarea placeholder="Entrer votre Message"></textarea>
+				</div>
 
-			<a class="btn">ENVOYER</a>
+				<input type="submit" class="btn_send" value="ENVOYER LE MESSAGE">
+			</form>
 
 	</main>
 
