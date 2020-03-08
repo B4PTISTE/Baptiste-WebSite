@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Century Gothic', sans-serif;
+	background: url(../img/bg2.jpg);
+}
+
+header{
+	font-family: 'Century Gothic', sans-serif;
+	display: flex;
+	height: 10vh;
+	width: 80%;
+	margin: auto;
+	align-items: center;
+}
+
+.logo-container,.nav-links{
+	display: flex;
+}
+
+.logo-container{
+	flex: 0.75;
+}
+
+.logo{
+	font-weight: 400;
+	color: #ACCCC8;
+	margin: 5px;
+	margin-top: 15px;
+}
+
+.logo-img{
+	margin-right: 5px;
+	width: 50px;
+	height: 50px;
+}
+
+nav{
+	flex: 2;
+}
+
+.nav-links{
+	justify-content: space-around;
+	list-style: none;
+	background: linear-gradient(to right, #8FBAB4, #D6DBDA);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.nav-link{
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+}

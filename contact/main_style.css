@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Century Gothic', sans-serif;
+	background: url(../img/bg2.jpg);
+}
+
+header{
+	font-family: 'Century Gothic', sans-serif;
+	display: flex;
+	height: 10vh;
+	width: 80%;
+	margin: auto;
+	align-items: center;
+}
+
+.logo-container,.nav-links{
+	display: flex;
+}
+
+.logo-container{
+	flex: 0.75;
+}
+
+.logo{
+	font-weight: 400;
+	color: #ACCCC8;
+	margin: 5px;
+	margin-top: 15px;
+}
+
+.logo-img{
+	margin-right: 5px;
+	width: 50px;
+	height: 50px;
+}
+
+nav{
+	flex: 2;
+}
+
+.nav-links{
+	justify-content: space-around;
+	list-style: none;
+	background: linear-gradient(to right, #8FBAB4, #D6DBDA);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.nav-link{
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.contact-form{
+	width: 85%;
+	max-width: 600px;
+	background: #f1f1f1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 30px 40px;
+	box-sizing: border-box;
+	border-radius: 12px;
+	text-align: center;
+	box-shadow: 0 0 20px #000000b3;
+	font-family: "Montserrat", sans-serif;
+}
+
+.contact-form h1{
+	margin-top: 0;
+	font-weight: 200;
+}
+
+.txtb{
+	border: 1px solid gray;
+	margin: 8px 0;
+	padding: 12px 18px;
+	border-radius: 8px;
+}
+
+.txtb label{
+	display: block;
+	text-align: left;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.txtb input, textarea{
+	width: 100%;
+	border: none;
+	background: none;
+	outline: none;
+	font-size: 18px;
+	margin-top: 6px;
+}
+
+.btn{
+	display: block;
+	background: #9b59b6;
+	padding: 14px 0;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-top: 8px;
+	width: 100%;
+	
+}

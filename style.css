@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Century Gothic', sans-serif;
+	background: url(img/bg2.jpg);
+}
+
+header{
+	font-family: 'Century Gothic', sans-serif;
+	display: flex;
+	height: 10vh;
+	width: 80%;
+	margin: auto;
+	align-items: center;
+}
+
+.logo-container,.nav-links{
+	display: flex;
+}
+
+.logo-container{
+	flex: 0.75;
+}
+
+.logo{
+	font-weight: 400;
+	color: #ACCCC8;
+	margin: 5px;
+	margin-top: 15px;
+}
+
+.logo-img{
+	margin-right: 5px;
+	width: 50px;
+	height: 50px;
+}
+
+nav{
+	flex: 2;
+}
+
+.nav-links{
+	justify-content: space-around;
+	list-style: none;
+	background: linear-gradient(to right, #8FBAB4, #D6DBDA);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.nav-link{
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.presentation{
+	display: block;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
+}
+
+.cover{
+	width: 450px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	color: white;
+}
+
+.cover img{
+	height: 55vh;
+	filter: drop-shadow(0px 5px 3px black);
+}
+
+.cover h1{
+	font-size: 30px;
+	letter-spacing: 4px;
+	font-weight: 100;
+}
+
+.cover h5{
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+
+.cover p{
+	font-size: 14px;
+	margin-top: 7px;
+	text-align: justify;
+}
+
+
+@media screen and (max-width: 1024px){
+	
+	.logo-container{
+		flex: 0.4;
+	}
+
+	.logo{
+		font-weight: 200;
+		font-size: 15px;
+	}
+
+	nav{
+		flex: 1;
+	}
+
+	.presentation{
+		flex-direction: column;
+	}
+
+	.introduction{
+		margin-top: 5vh;
+		text-align: center;
+	}
+
+	.cover{
+		margin-bottom: 10px;
+	}
+
+	.cover img{
+		height: 50vh;
+	}
+
+	.cover h1{
+		font-size: 30px;
+		letter-spacing: 3px;
+		font-weight: 100;
+	}
+
+	.cover h5{
+		font-size: 18px;
+		letter-spacing: 3px;
+		font-weight: 100;
+	}
+
+	.cover p{
+		font-size: 13px;
+		margin-top: 7px;
+		text-align: justify;
+	}
+}
+
+@media screen and (max-width: 800px){
+	
+	.logo-container{
+		flex: 0.2;
+	}
+
+	.logo{
+		font-weight: 400;
+		font-size: 10px;
+		margin-top: 2px;
+		margin-right: 20px;
+	}
+
+	.logo-img{
+		width: 30px;
+		height: 30px;
+	}
+
+	.nav-links{
+		justify-content: space-around;
+		list-style: none;
+		background: linear-gradient(to right, #8FBAB4, #D6DBDA);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		margin-bottom: 10px;
+	}
+
+	.nav-link{
+		color: black;
+		font-size: 7px;
+		text-decoration: none;
+	}
+
+	.presentation{
+		min-height: 50vh;
+	}
+
+	.cover{
+		width: 250px;
+		width: 70%;
+	}
+
+	.cover img{
+		height: 40vh;
+	}
+
+	.cover h1{
+		font-size: 21px;
+		letter-spacing: 3px;
+		font-weight: 100;
+		margin-bottom: 5px;
+	}
+
+	.cover h5{
+		font-size: 10px;
+		letter-spacing: 2px;
+		font-weight: 100;
+		margin-bottom: 10px;
+	}
+
+	.cover p{
+		font-size: 13px;
+		margin-top: 7px;
+		text-align: justify;
+	}
+
+}
