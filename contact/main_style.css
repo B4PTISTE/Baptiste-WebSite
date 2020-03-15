@@ -56,42 +56,29 @@ nav{
 	text-decoration: none;
 }
 
-main{
-	color: white;
-	display: flex;
-}
-
 .title{
-	position: fixed;
-	left: 42%;
-	margin-top: 25px;
+	margin-top: 50px;
+	color: white;
+	text-align: center;
+	font-size: 40px;
 	text-transform: uppercase;
-	font-size: 20px;
-	font-weight: bold;
 }
 
-.email_logo{
-	width: 100px;
-	height: 100px;
+.contact_all{
+	color: white;
+	display: inline-flex;
+	margin-top: 200px;
 }
 
-.discord_logo{
-	width: 100px;
-	height: 100px;
-}
-
-.twitter_logo{
+.contact_all img{
 	width: 100px;
 	height: 100px;
 }
 
 .Email, .Discord, .Twitter{
-	margin-top: 250px;
-	flex: 0.35;
-}
-
-.Email{
-	margin-left: 325px;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 150px;
 }
 
 /*TELEPHONE*/
@@ -128,48 +115,31 @@ main{
 	}
 
 	/*Contact*/
-	main{
-		
-	}
-	
 	.title{
-		position: absolute;
-		font-size: 20px;
-		margin-left: -30px;
-		
-	}
-	
-	.Email{
-		margin-left: 160px;
-	}
-
-	.Email h5, p{
+		margin-top: 50px;
+		margin-bottom: -120px;
+		color: white;
 		text-align: center;
-		margin-left: -120px;
-	}
-
-	.Discord{
-		margin-top: 500px;
-		margin-left: -180px;
-	}
-
-	.Twitter{
-		margin-top: 750px;
-		margin-left: -180px;
-	}
-
-	.email_logo{
-		width: 50px;
-		height: 50px;
+		font-size: 20px;
+		text-transform: uppercase;
 	}
 	
-	.discord_logo{
-		width: 50px;
-		height: 50px;
+	.contact_all{
+		color: white;
+		display: block;
+		/*margin-top: 200px;*/
 	}
 	
-	.twitter_logo{
-		width: 50px;
-		height: 50px;
+	.contact_all img{
+		width: 70px;
+		height: 70px;
+	}
+	
+	.Email, .Discord, .Twitter{
+		margin-top: 30px;
+		margin-left: 0px;
+		margin-right: 0px;
+		text-align: center;
+		margin-bottom: 0px;
 	}
 }
